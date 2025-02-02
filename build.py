@@ -22,7 +22,6 @@ def get_timeline():
     df['Formatted Date'] = df['Date'].apply(format_date)
     return df
 
-
 if __name__ == "__main__":
 
     site = Site.make_site(
