@@ -10,10 +10,10 @@ This site uses Jinja2, StaticJinja, and TailwindCSS to build a super fast, super
 Useful Commands
 
 Watch HTML Files and regenerate them upon change
-``` staticjinja watch --srcpath src/ --outpath output/ --static static/ ```
+``` staticjinja watch --srcpath src/ --outpath docs/ --static static/ ```
 
 Watch HTML files for CSS changes and regenerate CSS
 ``` npx @tailwindcss/cli -i ./css/input.css -o ./css/styles.css --watch ```
 
 Build Site
-``` staticjinja build --srcpath src/ --outpath output/ --static static/ ```
+``` staticjinja build --srcpath src/ --outpath docs/ --static static/ ```

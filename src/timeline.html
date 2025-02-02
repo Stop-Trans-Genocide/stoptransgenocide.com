@@ -8,16 +8,7 @@
 
 </head>
 <body class="bg-neutral-900 text-white font-poppins">
-    <nav class="p-8 bg-neutral-900 shadow-md">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="./index.html"><h1 class="text-2xl font-bold text-pink-500">Stop Trans Genocide</h1></a>
-            <ul class="flex space-x-4">
-                <li><a href="./index.html" class="hover:text-gray-400">Home</a></li>
-                <li><a href="./timeline.html" class="hover:text-gray-400">Timeline of Eradication</a></li>
-                <li><a href="./about.html" class="hover:text-gray-400">About This Project</a></li>
-            </ul>
-        </div>
-    </nav>
+    {% include "_nav.html" %}
     <div class="py-12 bg-neutral-800">
         <h2 class="text-5xl font-bold text-center text-pink-500">How Did We Get Here?</h2>
     </div>
@@ -112,8 +103,6 @@
         </div>
     </main>
     
-    <footer class="p-4 bg-neutral-800 text-center">
-        <p class="text-neutral-400">Public Domain - Please Duplication Our Work - <a class="underline" href="https://github.com/alliraine/stoptransgenocide.com">GitHub Repo</a></p>
-    </footer>
+    {% include "_footer.html" %}
 </body>
 </html>
